@@ -42,37 +42,12 @@
               <button class="btn btn-outline-success" type="submit">Search</button>
             </form> -->
             <div class="mx-2">
-                <!-- <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#login-modal">Login</button> -->
+                
                 <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#signup-modal">Sign-Up</button>
             </div>
           </div>
         </div>
       </nav>
-      <!-- log-in model -->
-    <!-- <div class="modal fade" id="login-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" style="display: none;" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Login</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <div class="form-floating mb-3">
-                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                        <label for="floatingInput">Email address</label>
-                    </div>
-                    <div class="form-floating">
-                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                        <label for="floatingPassword">Password</label>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Login</button>
-                </div>
-            </div>
-        </div>
-    </div> -->
 <!-- sign-up model -->
 <div class="modal fade" id="signup-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" style="display: none;" aria-hidden="true">
     <div class="modal-dialog">
@@ -124,7 +99,7 @@
 </div>
 <!-- cards for photos and our views -->
 <div>
-    <div class="card d-inline-flex p-2" style="width: 18rem;">
+    <div class="card d-inline-flex p-2 my-4" style="width: 18rem;">
         <img src="prashad ke sath.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Khane ke samay Hasna</h5>
@@ -132,7 +107,7 @@
           <!-- <a href="#" class="btn btn-primary">view in Detail</a> -->
         </div>
       </div>
-      <div class="card d-inline-flex p-2" style="width: 18rem;">
+      <div class="card d-inline-flex p-2 my-4" style="width: 18rem;">
         <img src="kabhi kabhi thk.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Galti se</h5>
@@ -140,7 +115,7 @@
           <!-- <a href="#" class="btn btn-primary">view in Detail</a> -->
         </div>
       </div>
-      <div class="card d-inline-flex p-2" style="width: 18rem;">
+      <div class="card d-inline-flex p-2 my-4" style="width: 18rem;">
         <img src="soke utha.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Soke utha hua</h5>
@@ -148,7 +123,50 @@
           <!-- <a href="#" class="btn btn-primary">view in Detail</a> -->
         </div>
       </div>
-      <div class="card d-inline-flex p-2" style="width: 18rem;">
+      <div class="card d-inline-flex p-2 my-4" style="width: 18rem;">
+        <img src="chamakchalo.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nachaniya</h5>
+          <p class="card-text">part time job karta hai "laundiya nach" apke najdiki melo me.<br>
+              <br>Special Private shows ke liye book kare.<br>
+              <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#login-modal">Book Now</button>
+              <div class="modal fade" id="login-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" style="display: none;" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Book your Private Show</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="Town Hall">
+                        <label for="floatingInput">Address</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="floatingPassword" placeholder="Timing">
+                        <label for="floatingPassword">Timing</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="floatingPassword" placeholder="10, 20, 50 etc">
+                        <label for="floatingPassword">No. of Thumkas</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="floatingPassword" placeholder="yes or no">
+                        <label for="floatingPassword">Lap Dance</label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Book</button>
+                </div>
+               </div>
+               </div>
+              </div>
+          </p>
+          <!-- <a href="#" class="btn btn-primary">view in Detail</a> -->
+        </div>
+      </div>
+      <div class="card d-inline-flex p-2 my-4" style="width: 18rem;">
         <img src="soke utha.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Soke utha hua</h5>
@@ -156,15 +174,7 @@
           <!-- <a href="#" class="btn btn-primary">view in Detail</a> -->
         </div>
       </div>
-      <div class="card d-inline-flex p-2" style="width: 18rem;">
-        <img src="soke utha.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Soke utha hua</h5>
-          <p class="card-text">soke ke uthte he ganda sa muh leke video call pe ajata hai lauda</p>
-          <!-- <a href="#" class="btn btn-primary">view in Detail</a> -->
-        </div>
-      </div>
-      <div class="card d-inline-flex p-2" style="width: 18rem;">
+      <div class="card d-inline-flex p-2 my-4" style="width: 18rem;">
         <img src="soke utha.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Soke utha hua</h5>
